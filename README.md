@@ -5,8 +5,7 @@ We are given a file (in .edl format) with some number of lines, each of which ha
 
 The time format is HH:MM:SS:FF where FF indicates frames, from 00 to 23.
 For example, the input line
-002  HAW_BLAC V     C        00:00:00:00 00:00:01:00 00:07:00:03 00:07:01:03
-* FROM CLIP NAME:  HAW_BLACK_HD.nxclip
+002  HAW_BLAC V     C        00:00:00:00 00:00:01:00 00:07:00:03 00:07:01:03 * FROM CLIP NAME:  HAW_BLACK_HD.nxclip
 would result in a computed time of 00:07:00:15
 
 Functionality:
